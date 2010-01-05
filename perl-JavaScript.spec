@@ -1,5 +1,5 @@
 %define upstream_name	JavaScript
-%define upstream_version 1.14
+%define upstream_version 1.15
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
