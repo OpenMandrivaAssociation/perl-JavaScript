@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:	4
 
 Summary:	Execute JavaScript from within Perl
 License:	Artistic or GPL 
