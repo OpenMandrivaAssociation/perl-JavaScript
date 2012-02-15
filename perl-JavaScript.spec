@@ -66,7 +66,7 @@ or for testing JavaScript code from Perl.
 
 %prep
 %setup -q -n %{upstream_name}-%{upstream_version}
-%patch0 -b .fix-inc
+%patch0 -p0 -b .fix-inc
 %define jsinc   %(eval echo $(pkg-config libjs --cflags-only-I | sed s/-I//))
 %define nsprinc %(eval echo $(pkg-config nspr --cflags-only-I  | sed s/-I//))
 %define JS_INC %{jsinc}:%{nsprinc}
