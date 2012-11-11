@@ -1,0 +1,11 @@
+--- t/24-c-level-interrupt-handler.t~	2009-02-13 13:53:44.000000000 +0100
++++ t/24-c-level-interrupt-handler.t	2009-10-06 14:36:55.000000000 +0200
+@@ -28,7 +28,7 @@
+ 
+ use Inline Config => FORCE_BUILD => 1;
+ 
+-Inline->bind('C' => <<'END_OF_CODE', TYPEMAPS => $typemap, INC => $inc, AUTO_INCLUDE => '#include "JavaScript.h"');
++Inline->bind('C' => <<'END_OF_CODE', TYPEMAPS => $typemap, INC => "$inc", AUTO_INCLUDE => '#include "JavaScript.h"');
+ 
+ struct Opcount {
+     int cnt;
