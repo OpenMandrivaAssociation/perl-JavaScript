@@ -8,7 +8,7 @@ Release:	4
 Summary:	Execute JavaScript from within Perl
 License:	Artistic or GPL 
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}/
+Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/JavaScript/%{upstream_name}-%{upstream_version}.tar.gz
 Patch0:     JavaScript-1.12-fix-inline-c-inc-from-jsinc.patch
 
