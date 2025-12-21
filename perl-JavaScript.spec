@@ -16,6 +16,7 @@ Patch0:     JavaScript-1.12-fix-inline-c-inc-from-jsinc.patch
 %{?_without_test:           %global do_test 0}
 %{?_with_test:              %global do_test 1}
 
+BuildRequires:	make
 Buildrequires:	libjs-devel
 Buildrequires:	libnspr-devel
 Buildrequires:	perl-devel
