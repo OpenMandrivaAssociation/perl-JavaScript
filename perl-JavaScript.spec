@@ -2,14 +2,14 @@
 %define upstream_version 1.16
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	4
+Version:    %{upstream_version}
+Release:	5
 
 Summary:	Execute JavaScript from within Perl
 License:	Artistic or GPL 
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/JavaScript/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/JavaScript
+Source0:	https://cpan.metacpan.org/authors/id/C/CL/CLAESJAC/JavaScript-%{upstream_version}.tar.gz
 Patch0:     JavaScript-1.12-fix-inline-c-inc-from-jsinc.patch
 
 %define do_test 1
